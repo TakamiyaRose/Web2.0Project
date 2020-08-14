@@ -1,0 +1,80 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/DonateMeal.css">
+    <title>Donate A Meal Page</title>
+</head>
+
+<body>
+    <h1>Donate A Meal!!!</h1>
+    <nav class="navbar">
+        <a href="/">Home</a>
+        <a href="/Donate">Donate a Meal</a>
+        <a href="/Redeem">Redeem a Meal</a>
+        <div class="dropdown">
+            <button class="dropbtn">Kopitiam
+                <i class="fa fa-caret-down"></i>
+            </button>
+
+            <div class="dropdown-content">
+                <a href="/Chinese">Chinese Stall</a>
+                <a href="/Malay">Malay Stall</a>
+                <a href="/Indian">Indian Stall</a>
+            </div>
+        </div>
+    </nav>
+    <section>
+        <table>
+            <tr>
+                <th>List Of Donations</th>
+                <th>Making Donation</th>
+            </tr>
+            <tr>
+                <td>
+                    <div class="donations">
+                    </div>
+                </td>
+                <td>
+                    <form action="api/foodDonations" method="post">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required><br><br>
+
+                        <label for="stores">Store: </label>
+                        <select id="stores" name="store">
+                            <option value="Chinese Store">Chinese Store</option>
+                            <option value="Malay Store">Malay Store</option>
+                            <option value="Indian Store">Indian Store</option>
+                        </select><br><br>
+
+                        <label for="Food Cost">Cost of the food:</label>
+                        <select id="foodcosts" name="costOfFood">
+                            <option value="3.50">$3.50</option>
+                            <option value="4.00">$4.00</option>
+                        </select><br><br>
+
+                        <label for="contactnumber">Contact Number:</label>
+                        <input type="tel" id="contactNumber" name="contactNumber" required pattern="[0-9]{8}"><br><br>
+
+                        <input type="submit" value="Donate"></a>
+                        </div>
+
+
+                    </form>
+                </td>
+            </tr>
+        </table>
+    </section>
+
+    <script src='../js/jquery-3.5.0.min.js'></script>
+    <script src='../js/DonateMeal.js'></script>
+
+    <footer>
+
+        <p>&copy;SafeFoods</p>
+
+    </footer>
+
+</body>
+
+</html>

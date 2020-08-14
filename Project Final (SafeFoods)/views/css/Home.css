@@ -1,0 +1,15 @@
+section{
+  background: url(../Images/SG1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+  width: 100%;
+  text-align: center;
+  padding-top: 150px;
+  font-size: 50px;
+  font-style: bold;
+}
+
+mark{
+  background-color: gainsboro;
+}

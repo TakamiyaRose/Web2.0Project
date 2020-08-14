@@ -1,0 +1,38 @@
+table{
+    font-family: arial, sans-serif;
+    border-collapse: collapse; 
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border:4px solid black;
+  }
+
+.donationTable{
+  background-color: darksalmon;
+}
+
+  tr{
+    border:4px solid black; 
+  }
+
+  th{
+    border:4px solid black;
+    width: 50%;       
+  }
+ 
+   td {
+    border: 3px solid black;
+    text-align: left;
+    padding: 8px;  
+  } 
+
+section{
+  padding: 20px 0px;
+  background-color:gainsboro;
+} 
+
+  form{
+    position: fixed;
+    top: 200px;
+  }
+   

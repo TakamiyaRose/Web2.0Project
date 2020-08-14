@@ -1,0 +1,56 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/Location.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Safe Foods Page</title>
+</head>
+
+<body>
+    <h1>Safe Foods</h1>
+     
+       <nav class="navbar">
+        <a href="/">Home</a>
+        <a href="/Donate">Donate a Meal</a>
+        <a href="/Redeem">Redeem a Meal</a>    
+       <div class="dropdown">
+        <button class="dropbtn">Kopitiam 
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+            <a href="/Chinese">Chinese Stall</a>
+            <a href="/Malay">Malay Stall</a>
+            <a href="/Indian">Indian Stall</a>
+        </div>
+      </div>
+    </nav>
+    <div class="grid-container">
+     <form action="/Locations" method="POST"> 
+        <label for="address">Address:</label>
+        <input type="text" id="address" name="address"  required ><br><br>
+        <label for="postalcode">Postal Code:</label>
+        <input type="text" id="postalcode" name="postalcode" required pattern="[0-9]{6}" ><br><br>
+        <input type="submit" value="Send"><br><br>
+      
+
+     <div class="LocationsSection">
+     </div>
+    
+    </form>
+  </div> 
+    
+ 
+
+ <footer>
+    
+  <p>&copy;SafeFoods</p>
+
+  </footer>
+ 
+  <script src='../js/jquery-3.5.0.min.js'></script>
+  <script src="../js/Location.js"></script>
+
+  
+ </body>
+</html>

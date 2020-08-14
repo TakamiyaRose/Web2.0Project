@@ -1,0 +1,51 @@
+[{
+  "_id": {
+    "$oid": "5f0adc8b5fd54d25a015b31f"
+  },
+  "name": "Tester6",
+  "store": "Malay Store",
+  "costOfFood": "$4.00",
+  "contactNumber": 90012584,
+  "availability": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f0b1cf1b7346d4768a096cd"
+  },
+  "name": "Rich Boy 1",
+  "store": "Chinese Store",
+  "costOfFood": "$3.50",
+  "contactNumber": 95512784,
+  "availability": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f0d434eb3c8b32370e2fb02"
+  },
+  "name": "Rich Boy 1",
+  "store": "Chinese Store",
+  "costOfFood": "$3.50",
+  "contactNumber": 95512784,
+  "availability": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f2ec62e27406f2910689124"
+  },
+  "name": "Kim",
+  "store": "Chinese Store",
+  "costOfFood": "3.50",
+  "contactNumber": 12345679,
+  "availability": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f3352aaf8102e52840f7860"
+  },
+  "name": "Denise",
+  "store": "Chinese Store",
+  "costOfFood": "3.50",
+  "contactNumber": 12345678,
+  "availability": true,
+  "__v": 0
+}]

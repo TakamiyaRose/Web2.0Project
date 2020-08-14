@@ -1,0 +1,21 @@
+.grid-container {
+    /* margin-left: 150px; */
+    display: grid;
+    align-content: start;
+    grid-template-columns: auto auto auto;
+    grid-gap: 0px;
+    padding: 10px;
+    
+}
+
+body .grid-container {
+
+   background-color: gainsboro;
+  
+    
+}
+
+
+/* footer{
+      margin-top: 100px;
+  } */

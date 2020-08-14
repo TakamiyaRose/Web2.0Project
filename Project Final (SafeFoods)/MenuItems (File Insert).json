@@ -1,0 +1,109 @@
+[{
+  "_id": {
+    "$oid": "5f0f3f59de42cd2ae4c1d06b"
+  },
+  "foodName": "Char Siew Rice",
+  "store": "Chinese Store",
+  "costOfFood": "$3.50",
+  "image": "../Images/Char_Siew_Rice.jpg",
+  "availability": true
+},{
+  "_id": {
+    "$oid": "5f0f3f8ede42cd2ae4c1d06c"
+  },
+  "foodName": "Duck Rice",
+  "store": "Chinese Store",
+  "costOfFood": "$4.00",
+  "image": "../Images/Duck_Rice.jpg",
+  "availability": true
+},{
+  "_id": {
+    "$oid": "5f0f3fafde42cd2ae4c1d06d"
+  },
+  "foodName": "Chicken Rice",
+  "store": "Chinese Store",
+  "costOfFood": "$3.50",
+  "image": "../Images/Chicken_Rice.jpg",
+  "availability": true
+},{
+  "_id": {
+    "$oid": "5f0f3fffde42cd2ae4c1d06e"
+  },
+  "foodName": "Fishball Noodles",
+  "store": "Chinese Store",
+  "costOfFood": "$4.20",
+  "image": "../Images/Fishball_Noodle.jpg",
+  "availability": true
+},{
+  "_id": {
+    "$oid": "5f0f407ade42cd2ae4c1d06f"
+  },
+  "foodName": "Nasi Lemak",
+  "store": "Malay Store",
+  "costOfFood": "$3.50",
+  "image": "../Images/Nasi_Lemak.jpg",
+  "availability": true
+},{
+  "_id": {
+    "$oid": "5f0f4091de42cd2ae4c1d070"
+  },
+  "foodName": "Curry Laksa",
+  "store": "Malay Store",
+  "costOfFood": "$4.00",
+  "image": "../Images/Curry_Laksa.jpg",
+  "availability": true
+},{
+  "_id": {
+    "$oid": "5f0f40c4de42cd2ae4c1d071"
+  },
+  "foodName": "Mee Siam",
+  "store": "Malay Store",
+  "costOfFood": "$3.50",
+  "image": "../Images/Meesiam.jpg",
+  "availability": true
+},{
+  "_id": {
+    "$oid": "5f0f413cde42cd2ae4c1d072"
+  },
+  "foodName": "Tandoori Chicken",
+  "store": "Indian Store",
+  "costOfFood": "$4.50",
+  "image": "../Images/tandoori_Chicken.jpg",
+  "availability": true
+},{
+  "_id": {
+    "$oid": "5f3180461e62df8c7bd02eb2"
+  },
+  "foodName": "Lotong Soup",
+  "store": "Malay Store",
+  "costOfFood": "$4.00",
+  "image": "../Images/lotong.jpg",
+  "availability": "true"
+},{
+  "_id": {
+    "$oid": "5f3183a31e62df8c7bd02eb3"
+  },
+  "foodName": "Prata",
+  "store": "Indian Store",
+  "costOfFood": "$4.00",
+  "image": "../Images/prata.jpg",
+  "availability": "true"
+},{
+  "_id": {
+    "$oid": "5f3184271e62df8c7bd02eb4"
+  },
+  "foodName": "Thosai",
+  "store": "Indian Store",
+  "costOfFood": "$3.50",
+  "image": "../Images/Thosai.jpg",
+  "availability": "true"
+},{
+  "_id": {
+    "$oid": "5f3184b41e62df8c7bd02eb5"
+  },
+  "foodName": "Mee Goreng",
+  "store": "Indian Store",
+  "costOfFood": "$3.50",
+  "image": "../Images/MeeGoreng.jpg",
+  "availability": "true"
+}]

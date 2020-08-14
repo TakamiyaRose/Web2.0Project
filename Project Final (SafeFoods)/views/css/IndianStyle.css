@@ -1,0 +1,57 @@
+#image3{
+    width: 200px;
+}
+
+.uncleWords{
+  position: fixed;
+  height: 100px;
+  width: 220px;
+  border-radius: 50%;
+  background-color: white;
+  text-align: center;
+  padding: 20px 0px 20px 0px;
+  margin-top: 0px;
+}
+
+  table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse; 
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    border:4px solid black;
+    
+
+  }
+ 
+  tr{
+    border:2px solid black; 
+  }
+
+  th{
+    border:2px solid black; 
+    width: 80%;   
+  }
+
+
+  td {
+    border: 2px solid black;
+    text-align: left;
+    padding: 8px;
+    
+  } 
+
+  .grid-container {
+    /* margin-left: 150px; */
+    display: grid;
+    align-content: start;
+    grid-template-columns: auto auto auto;
+    grid-gap: 0px;
+    padding: 10px;
+    
+}
+
+body .grid-container {
+
+    background-color:gainsboro;
+}
